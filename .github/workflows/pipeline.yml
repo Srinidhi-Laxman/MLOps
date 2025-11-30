@@ -1,4 +1,3 @@
-```
 name: Tourism Project Pipeline
 
 on:
@@ -60,6 +59,3 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python tourism_project_Sri/hosting/hosting.py
-
-
-```
